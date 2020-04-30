@@ -24,10 +24,10 @@ You can open config.ini in Notepad and make changes to the paths in this file.
 
 :warning: Please note that any lines beginning with a # character are comments, and lines **not** beginning with a # are evaluated as code. Be careful to only edit the text between the quotation mark characters.
 
-''' python
+``` python
 # Comment explaining the variable below
 variable_name = "Edit the stuff inside the quotes!"
-'''
+```
 
 ##### The $year$ variable
 You may notice that `$year$` is used in place of a year folder in some cases. This is treated as a variable by the program, and will be replaced by whatever year you're deciding to run. For example, if you enter '1988' as the year to run, it will replace `$year$` with `1988` when reading this file.
